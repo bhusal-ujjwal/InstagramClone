@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RegIIFragment">
+
+    <LinearLayout
+        android:id="@+id/emailContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <EditText
+            android:id="@+id/etRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:paddingHorizontal="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:singleLine="true"
+            android:background="@drawable/login_et_outline"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_margin="20dp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:background="@drawable/login_btn"/>
+
+    </LinearLayout>
+
+</FrameLayout>

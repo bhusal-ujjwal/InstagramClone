@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingLeft="3dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgInstaStory"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ujj"
+        android:padding="5dp"
+        android:background="@drawable/insta_story_outline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/imgInstaStoryAdd"-->
+<!--        android:layout_width="18dp"-->
+<!--        android:layout_height="18dp"-->
+<!--        android:background="@drawable/insta_story_add"-->
+<!--        android:layout_marginRight="2dp"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/ic_story_add_icon_24dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imgInstaStory"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imgInstaStory" />-->
+
+    <TextView
+        android:id="@+id/tvStoryBy"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-light"
+        android:singleLine="true"
+        android:maxLength="15"
+        android:text="Your Story"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgInstaStory" />
+</androidx.constraintlayout.widget.ConstraintLayout>

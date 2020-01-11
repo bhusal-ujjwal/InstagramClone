@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ujjwal.instagram.fragments.PostFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_post" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.ujjwal.instagram.fragments.SearchFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.ujjwal.instagram.fragments.AddFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/navigation_liked"
+        android:name="com.ujjwal.instagram.fragments.LikedFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_liked" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.ujjwal.instagram.fragments.ProfileFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
